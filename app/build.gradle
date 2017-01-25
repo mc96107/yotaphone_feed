@@ -55,3 +55,13 @@ dependencies {
     compile group: 'commons-io', name: 'commons-io', version: '2.5'
     compile 'com.android.support:palette-v7:23.1.1'
 }
+
+dependencies {
+
+    // YotaPhone SDK
+    //noinspection GradleDynamicVersion
+    provided 'com.yotadevices.libs.public:sdk:3.7.+'
+
+}
+
+
