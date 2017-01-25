@@ -11,7 +11,6 @@ buildscript {
         // in the individual module build.gradle files
         classpath 'com.neenbedankt.gradle.plugins:android-apt:1.8'
         classpath 'me.tatarka:gradle-retrolambda:3.2.5'
-        provided "com.yotadevices.libs.public:sdk:3.7.+"
     }
 }
 
@@ -21,4 +20,11 @@ allprojects {
               // Add YotaDevices maven repository
               maven { url "http://fw.ydevices.com/maven" }
     }
+}
+dependencies {
+
+    // YotaPhone SDK
+    //noinspection GradleDynamicVersion
+    provided 'com.yotadevices.libs.public:sdk:3.7.+'
+
 }
