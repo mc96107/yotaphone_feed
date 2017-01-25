@@ -10,7 +10,6 @@ android {
 
     buildToolsVersion "19.1.0"
 
-
     compileOptions {
         sourceCompatibility JavaVersion.VERSION_1_8
         targetCompatibility JavaVersion.VERSION_1_8
@@ -37,5 +36,3 @@ provided files('libs/com.yotadevices.yotaphone2.sdk.v2.jar')
     provided 'com.yotadevices.libs.public:sdk:3.7.+'
 
 }
-
-
