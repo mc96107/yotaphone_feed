@@ -21,10 +21,4 @@ allprojects {
               maven { url "http://fw.ydevices.com/maven" }
     }
 }
-dependencies {
 
-    // YotaPhone SDK
-    //noinspection GradleDynamicVersion
-    provided 'com.yotadevices.libs.public:sdk:3.7.+'
-
-}
