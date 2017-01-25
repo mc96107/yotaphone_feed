@@ -31,36 +31,9 @@ android {
 }
 
 dependencies {
-    // If you want to use YotaPhone Add-On SDK library separately, you should copy it to "libs"
-    // directory in your project, and add following instruction to this section:
-    //
-    //      compile fileTree(dir: 'libs', include: ['*.jar'], excludes: ['com.yotadevices.yotaphone2.sdk.v2.jar'])
-    //      provided files('libs/com.yotadevices.yotaphone2.sdk.v2.jar')
-    //
-    // In this case, the YotaPhone SDK Add-On used as compileSdkVersion. Please, see "android"
-    // section for more information.
-//    compile fileTree(include: ['*.jar'], dir: 'libs')
- //   testCompile 'junit:junit:4.12'
- //   compile 'com.android.support:support-v4:22.2.1'
-//    compile 'com.android.support:recyclerview-v7:24.1.1'
-//    compile 'com.android.support:design:22.2.1'
-//    compile 'io.reactivex:rxjava:1.1.8'
-//    compile ('org.simpleframework:simple-xml:2.6.6') {
-//        exclude group: 'stax', module: 'stax-api'
-        //exclude group: 'xpp3', module: 'xpp3'
-    
-//    compile ('com.pushtorefresh.storio:sqlite:1.10.0')
-//    compile 'com.pushtorefresh.storio:sqlite-annotations:1.10.0'
- //   apt 'com.pushtorefresh.storio:sqlite-annotations-processor:1.10.0'
-//    compile group: 'commons-io', name: 'commons-io', version: '2.5'
-//    compile 'com.android.support:palette-v7:23.1.1'
-//	}
-    // Local binary dependency (excludes file com.yotadevices.yotaphone2.sdk.v2.jar)
+ 
     compile fileTree(dir: 'libs', excludes: ['com.yotadevices.yotaphone2.sdk.v2.jar'], include: ['*.jar'])
-    // YotaPhone2 SDK library
 provided files('libs/com.yotadevices.yotaphone2.sdk.v2.jar')
-    // YotaPhone SDK
-    //noinspection GradleDynamicVersion
     provided 'com.yotadevices.libs.public:sdk:3.7.+'
 
 }
