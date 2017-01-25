@@ -130,6 +130,6 @@
     <orderEntry type="library" exported="" scope="TEST" name="junit-4.12" level="project" />
     <orderEntry type="library" exported="" name="common-1.10.0" level="project" />
     <orderEntry type="library" exported="" name="design-22.2.1" level="project" />
-    <orderEntry type="library" exported="" name="com.yotadevices.yotaphone2.sdk.v2-android-21" level="project" />
+    <orderEntry type="library" exported="" name="com.yotadevices.yotaphone2.sdk.v2-android-19" level="project" />
   </component>
 </module>
