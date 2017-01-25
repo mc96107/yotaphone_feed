@@ -6,9 +6,9 @@ android {
 
     // In this case, the YotaPhone Add-On SDK used as compileSdkVersion, but you could use Add-On
     // library separately, please see "dependencies" section for more information.
-    compileSdkVersion 'YotaDevices:YotaPhone2 SDK Add-On:21'
+    compileSdkVersion 19 //'YotaDevices:YotaPhone2 SDK Add-On:21'
 
-    buildToolsVersion "23.0.1"
+    buildToolsVersion "19.1.0"
 
 
     compileOptions {
@@ -17,8 +17,8 @@ android {
     }
     defaultConfig {
         applicationId "me.vlastachu.feedwidget"
-        minSdkVersion 21
-        targetSdkVersion 22
+        minSdkVersion 10
+        targetSdkVersion 19
         versionCode 1
         versionName "1.0"
     }
