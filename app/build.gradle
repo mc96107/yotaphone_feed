@@ -54,9 +54,7 @@ dependencies {
     apt 'com.pushtorefresh.storio:sqlite-annotations-processor:1.10.0'
     compile group: 'commons-io', name: 'commons-io', version: '2.5'
     compile 'com.android.support:palette-v7:23.1.1'
-}
 
-dependencies {
 
     // YotaPhone SDK
     //noinspection GradleDynamicVersion
